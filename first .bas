@@ -200,13 +200,13 @@ LABEL:         ''(while(true))
 	if r0 = 0 then
 	    IP = array(IP+1)
 	else
-	    IP = IP+1
+	    IP = IP+2
 	end if
     elseif IS_r = 15 then
 	if  r1 <> 0 then
 	    IP = array(IP+1)
 	else
-	    IP = IP+1
+	    IP = IP+2
 	end if
     end if
 Goto LABEL
